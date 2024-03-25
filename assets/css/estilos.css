@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+   /*  box-sizing: content-box; */
+}
+
+.cabeza {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+
+    /* Cambio Font*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    text-shadow: 0px 3px 6px black;
+    color: white;
+}
+
+.cabeza h1 {
+    font-size: 30px;
+
+}
+
+.cabeza h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#Proxima-Charla{
+    margin-top: 10px;
+    border-width: 1px;
+    padding: 10px;
+    background-color: #d0f5f6;
+    color: rgb(0, 1, 13);
+}
+
+#Proxima-Charla img {
+    width: 35%;
+}
+
+.texto {
+    width: 45%;
+}
+
+#Proxima-Charla a {
+    text-decoration: none;
+}
+
+#Proxima-Charla .charla {
+    margin-top: 10px;
+    width: 50%;
+}
+
+#Proxima-Charla .charla, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.enlace {
+    margin-top: 10px;
+}
